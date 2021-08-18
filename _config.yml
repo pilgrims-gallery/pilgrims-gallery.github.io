@@ -103,5 +103,6 @@ theme: magnetic
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: https://github.com/ilgrims-gallery/pilgrims-gallery.github.io
+  repo: https://github.com/pilgrims-gallery/pilgrims-gallery.github.io
   branch: sumirat
+  message: ap.programming {{ now('YYYY-MM-DD HH:mm:ss') }}
